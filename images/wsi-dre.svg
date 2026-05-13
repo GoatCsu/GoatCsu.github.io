@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Dynamic residual encoding for whole slide image representation">
+  <rect width="500" height="300" rx="24" fill="#fff7ec"/>
+  <g transform="translate(62 42)">
+    <rect x="0" y="0" width="376" height="216" rx="22" fill="#2f4f4f"/>
+    <g fill="#ffb36b" opacity=".9">
+      <circle cx="60" cy="62" r="26"/>
+      <circle cx="118" cy="126" r="16"/>
+      <circle cx="192" cy="78" r="22"/>
+      <circle cx="278" cy="132" r="30"/>
+      <circle cx="326" cy="68" r="14"/>
+    </g>
+    <g fill="none" stroke="#fff7ec" stroke-width="4" stroke-linecap="round">
+      <path d="M58 62 C126 16, 194 160, 278 132"/>
+      <path d="M118 126 C168 190, 242 44, 326 68"/>
+    </g>
+    <text x="28" y="190" fill="#fff7ec" font-family="Georgia, serif" font-size="28" font-weight="700">Dynamic Residual Encoding</text>
+  </g>
+</svg>

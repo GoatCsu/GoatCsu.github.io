@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Automated scientific agents">
+  <rect width="500" height="300" rx="24" fill="#f4efe3"/>
+  <g transform="translate(48 52)">
+    <rect x="0" y="0" width="404" height="196" rx="18" fill="#17231f"/>
+    <path d="M48 144 L128 88 L194 120 L276 42 L356 88" fill="none" stroke="#f5c84c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#f4efe3" opacity=".9">
+      <circle cx="48" cy="144" r="10"/>
+      <circle cx="128" cy="88" r="10"/>
+      <circle cx="194" cy="120" r="10"/>
+      <circle cx="276" cy="42" r="10"/>
+      <circle cx="356" cy="88" r="10"/>
+    </g>
+    <text x="28" y="46" fill="#f4efe3" font-family="Georgia, serif" font-size="27" font-weight="700">Scientific Agents</text>
+    <text x="28" y="176" fill="#9ddacb" font-family="Arial, sans-serif" font-size="17">automation · metrics · denominator gaming</text>
+  </g>
+</svg>

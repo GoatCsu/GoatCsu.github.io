@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Long chain-of-thought reasoning">
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1">
+      <stop offset="0" stop-color="#eaf7f1"/>
+      <stop offset="1" stop-color="#fff4d7"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="300" rx="24" fill="url(#paper)"/>
+  <path d="M76 78 H424 M76 126 H424 M76 174 H424 M76 222 H302" stroke="#18332f" stroke-opacity=".25" stroke-width="10" stroke-linecap="round"/>
+  <path d="M92 78 C136 116, 156 88, 192 126 S266 154, 308 174 S374 204, 414 222" fill="none" stroke="#d66b3d" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#18332f">
+    <circle cx="92" cy="78" r="11"/>
+    <circle cx="192" cy="126" r="11"/>
+    <circle cx="308" cy="174" r="11"/>
+    <circle cx="414" cy="222" r="11"/>
+  </g>
+  <text x="54" y="48" fill="#18332f" font-family="Georgia, serif" font-size="30" font-weight="700">Long-CoT Reasoning</text>
+</svg>
