@@ -12,7 +12,7 @@ redirect_from:
 
 I am **Te Gao (高特)**, an undergraduate student in Computer Science and Technology at **Central South University**. My research focuses on **LLM Agents** including search, memory, tool-use, and workflow, together with **post-training**, **LLM reasoning**, and **vision-language models**.
 
-I am currently a Research Assistant at **SJTU APEX Lab**, where I work on multi-agent memory distillation. I was also a research assistant in **Text Intelligence**, advised by LiBo Qin, working on long-video understanding and long chain-of-thought reasoning.
+I am currently a Research Assistant at **SJTU APEX Lab**, where I work on multi-agent memory distillation. I was also a research assistant at the **Central South University Text Intelligence Lab**, advised by LiBo Qin, working on long-video understanding and long chain-of-thought reasoning.
 
 **Research interests:** LLM Agents, Search Agents, Memory Distillation, Tool-use, Agent Workflow, Post-training, Long-CoT Reasoning, VLM, Graph RAG.
 
@@ -87,7 +87,7 @@ Position: Denominator Gaming by Automated Scientific Agents
 - Constructed a Neo4j Graph RAG memory module with entropy-based conflict filtering to improve recall consistency and memory retention in long-context scenarios.
 - On GAIA Benchmark, improved Qwen2.5-7B without fine-tuning from Pass@1 43.6 to 57.0 (+13.4), using GPT-4o as teacher.
 
-## Text Intelligence · LiBo Qin Group
+## Central South University Text Intelligence Lab · LiBo Qin Group
 *2024.11 - 2025.05*  
 **Long-video understanding, reasoning enhancement, and long chain-of-thought**
 
