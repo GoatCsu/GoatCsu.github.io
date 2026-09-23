@@ -1,0 +1,68 @@
+:root {
+  --cv-paper: #f4f2ec;
+  --cv-ink: #202522;
+  --cv-muted: #68716c;
+  --cv-line: #d9d9d0;
+  --cv-red: #ad3e32;
+  --cv-green: #38685e;
+  --cv-panel: #ebece5;
+}
+html { scroll-behavior: smooth; }
+body { background: var(--cv-paper); color: var(--cv-ink); }
+a { color: var(--cv-green); }
+a:hover { color: var(--cv-red); }
+.masthead { border-bottom: 1px solid var(--cv-line); background: var(--cv-paper); }
+.masthead__inner-wrap { background: transparent; }
+.greedy-nav { background: transparent; }
+.greedy-nav a { color: var(--cv-ink); }
+.greedy-nav .visible-links a:before { background: var(--cv-red); }
+.sidebar { opacity: .94; }
+.author__avatar img { border-radius: 2px; filter: saturate(.82); }
+.author__name { font-family: Georgia, 'Times New Roman', serif; font-weight: 600; }
+.author__bio, .author__urls { color: var(--cv-muted); }
+.page__content { font-size: 16px; line-height: 1.82; }
+.page__content h1, .page__content h2, .page__content h3 { color: var(--cv-ink); }
+.page__content h1 { font-family: Georgia, 'Noto Serif SC', serif; font-size: 1.6em; border-bottom: 1px solid var(--cv-line); padding-bottom: .35em; margin-top: 2.25em; }
+.page__content h2 { font-family: Georgia, 'Noto Serif SC', serif; }
+.page__content h3 { font-size: 1em; }
+.page__content p, .page__content li { color: #343b37; }
+.cv-intro { padding: 1.1em 0 1.55em; border-bottom: 2px solid var(--cv-ink); }
+.cv-kicker, .cv-label, .cv-pub-meta { color: var(--cv-red) !important; font: 700 11px/1.4 -apple-system, BlinkMacSystemFont, sans-serif; letter-spacing: .09em; }
+.cv-intro h1 { border: 0; margin: .2em 0 .35em; padding: 0; font: 600 clamp(2.3rem, 6vw, 4.2rem)/1.06 Georgia, 'Noto Serif SC', serif; }
+.cv-name-en { color: var(--cv-green); font: 400 .48em/1.2 Georgia, serif; vertical-align: .22em; }
+.cv-lede { max-width: 42em; font: 1.16em/1.75 Georgia, 'Noto Serif SC', serif; }
+.cv-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1.1em; margin-top: 1.25em; }
+.cv-actions a { font-size: .88em; }
+.cv-actions .cv-button { background: var(--cv-red); color: white; padding: .55em .9em; border-radius: 2px; }
+.cv-actions .cv-button:hover { background: var(--cv-ink); text-decoration: none; }
+.cv-text-link { border-bottom: 1px solid var(--cv-line); }
+.cv-facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; margin: 1.5em 0 2em; background: var(--cv-line); border: 1px solid var(--cv-line); }
+.cv-facts > div { display: flex; flex-direction: column; gap: .27em; padding: 1em; background: var(--cv-panel); }
+.cv-facts strong { font: 600 1.03em Georgia, 'Noto Serif SC', serif; }
+.cv-facts small { color: var(--cv-muted); line-height: 1.5; }
+.cv-publication { display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 1.1em; padding: 1.15em 0; border-bottom: 1px solid var(--cv-line); }
+.cv-pub-meta { display: flex; flex-direction: column; gap: .3em; padding-top: .2em; }
+.cv-pub-meta span + span { color: var(--cv-muted); font-size: 9px; }
+.cv-publication h3 { margin: 0 0 .35em; line-height: 1.5; }
+.cv-publication p { margin: .2em 0; font-size: .9em; }
+.cv-date { float: right; color: var(--cv-muted); font-size: .84em; font-weight: 400; }
+.cv-footer-note { border-top: 1px solid var(--cv-line); margin-top: 2.5em; padding-top: 1em; color: var(--cv-muted); font: italic 1.05em Georgia, serif; }
+html[data-theme="dark"] body, html[data-theme="dark"] .masthead { background: #202722; color: #e8e6de; }
+html[data-theme="dark"] { --cv-paper: #202722; --cv-ink: #e8e6de; --cv-muted: #b2b9af; --cv-line: #48534a; --cv-red: #e17d6e; --cv-green: #8bb8a9; --cv-panel: #29342d; }
+html[data-theme="dark"] .page__content p, html[data-theme="dark"] .page__content li { color: #d7d9d0; }
+html[data-theme="dark"] .cv-actions .cv-button { color: #fff; }
+@media (max-width: 700px) {
+  .page__content { font-size: 15px; }
+  .cv-intro { padding-top: .3em; }
+  .cv-facts { grid-template-columns: 1fr; }
+  .cv-facts > div { padding: .8em 1em; }
+  .cv-publication { grid-template-columns: 1fr; gap: .45em; }
+  .cv-pub-meta { flex-direction: row; gap: .75em; }
+  .cv-date { float: none; display: block; margin-top: .2em; }
+}
+@media print {
+  .masthead, .sidebar, .cv-actions { display: none !important; }
+  body { background: white !important; }
+  #main { max-width: 900px; }
+  .page__content { font-size: 11pt; }
+}
