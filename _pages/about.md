@@ -10,113 +10,100 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Te Gao (高特)**, an undergraduate student in Computer Science and Technology at **Central South University**. My research focuses on **LLM Agents** including search, memory, tool-use, and workflow, together with **post-training**, **LLM reasoning**, and **vision-language models**.
-
-I am currently a Research Assistant at **SJTU APEX Lab**, where I work on multi-agent memory distillation. I was also a research assistant at the **Central South University Text Intelligence Lab**, advised by LiBo Qin, working on long-video understanding and long chain-of-thought reasoning.
-
-**Research interests:** LLM Agents, Search Agents, Memory Distillation, Tool-use, Agent Workflow, Post-training, Long-CoT Reasoning, VLM, Graph RAG.
-
-# 🔥 News
-- *2026*: One paper accepted to **ACL 2026 Main Conference**.
-- *2026*: One co-first position paper accepted to **ICML 2026 Position**.
-- *2025*: One paper accepted to **ACM Multimedia 2025**.
-- *2025*: Long-CoT survey received **LMG Best Poster** at Science China Information Sciences.
-- *2025*: Led the Chinese translation and review project **LLMs-from-scratch-CN**, which received **2.5k+ GitHub stars**.
-
-# 📝 Publications
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 Main</div><img src='images/search-agents.svg' alt="Search agents overview" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Survey of LLM-Based Search Agents](https://arxiv.org/abs/2508.05668)
-
-**ACL 2026 Main Conference**, Accepted.
-
-[**arXiv**](https://arxiv.org/abs/2508.05668)
-
-- Contributions: benchmark organization; reproduction and statistical analysis; literature crawling, screening, and table-based summarization.
-</div>
+<div class="cv-intro">
+  <p class="cv-kicker">ACADEMIC CV · 2026</p>
+  <h1>高特 <span class="cv-name-en">Te Gao</span></h1>
+  <p class="cv-lede">中南大学计算机科学与技术本科生，关注让语言模型更可靠地思考、检索与使用工具。</p>
+  <div class="cv-actions">
+    <a class="cv-button" href="mailto:marsdon.gao@mail.com">联系我 <span aria-hidden="true">↗</span></a>
+    <a class="cv-text-link" href="https://github.com/GoatCsu">GitHub</a>
+    <a class="cv-text-link" href="https://scholar.google.com/citations?user=fmK1DrBEd8MC&amp;hl=zh-CN">Google Scholar</a>
+    <a class="cv-text-link" href="#" onclick="window.print(); return false;">打印 / 导出 PDF <span aria-hidden="true">↓</span></a>
+  </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/agent-science.svg' alt="Automated scientific agents" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Position: Denominator Gaming by Automated Scientific Agents
-
-**ICML 2026 Position**, Accepted. **Co-first author**.
-
-- Contributions: experiment setup and controls; statistical analysis; experiment framework collaboration and result organization.
-</div>
+<div class="cv-facts">
+  <div><span class="cv-label">教育</span><strong>中南大学</strong><small>计算机科学与技术 · 2024—2028</small></div>
+  <div><span class="cv-label">目前</span><strong>上海交通大学 APEX 实验室</strong><small>Research Assistant · 2025.06—至今</small></div>
+  <div><span class="cv-label">研究主题</span><strong>Agents · Memory · Reasoning</strong><small>Search · Tool-use · Post-training · VLM</small></div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/wsi-dre.svg' alt="Dynamic residual encoding for WSI" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 研究简介
 
-[Dynamic Residual Encoding for End-to-End WSI Representation](https://arxiv.org/abs/2511.05034)
+我是 **Te Gao（高特）**，中南大学计算机科学与技术专业本科生。目前在**上海交通大学 APEX 实验室**从事研究，主要关注语言模型智能体、记忆与工具使用，也参与长视频理解和长链推理相关研究。
 
-**ACM Multimedia 2025**, CCF-A, Accepted.
+我喜欢把研究问题落到可复现的系统与评测上：从数据和工作流搭建，到基线复现、统计分析与结果验证。
 
-[**arXiv**](https://arxiv.org/abs/2511.05034)
+# 近期动态
 
-- Contributions: reproduced and optimized Dynamic Residual Encoding; designed ablation studies and completed multi-dataset comparisons.
-</div>
-</div>
+- **2026** · 参与的科研智能体与学术会议分母博弈 position paper 发表于 **ICML 2026 Position**，共同第一作者。
+- **2026** · 参与的 LLM 搜索智能体综述发表于 **ACL 2026 Main Conference**。
+- **2025** · 参与的 Long-CoT 综述发表于 *Science China Information Sciences*，获 LMG Best Poster。
+- **2025** · 牵头 **LLMs-from-scratch-CN** 中文翻译与校对，项目累计 2.5k+ GitHub stars。
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SCIS</div><img src='images/long-cot.svg' alt="Long chain-of-thought reasoning survey" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 论文
 
-[Towards Reasoning Era: Long-CoT Survey](https://arxiv.org/abs/2503.09567)
-
-**Science China Information Sciences**, LMG Best Poster.
-
-[**arXiv**](https://arxiv.org/abs/2503.09567) / [**Project**](https://long-cot.github.io/) / [**Code**](https://github.com/LightChen233/Awesome-Long-Chain-of-Thought-Reasoning)
-
-- Impact: 100+ Google Scholar citations.
-- Contributions: Long-CoT taxonomy; literature summary and table maintenance; updated 250+ references.
-</div>
+<div class='cv-publication'>
+  <div class='cv-pub-meta'><span>ACL 2026</span><span>MAIN CONFERENCE</span></div>
+  <div><h3><a href="https://arxiv.org/abs/2508.05668">A Survey of Large Language Model-Based Search Agents</a></h3><p>Yunjia Xi, Jianghao Lin, …, Te Gao, …, Weinan Zhang</p><p>贡献：评测基准整理、复现统计分析与文献表格化整理。</p></div>
 </div>
 
-# 🔬 Research Experience
+<div class='cv-publication'>
+  <div class='cv-pub-meta'><span>ICML 2026</span><span>POSITION · CO-FIRST</span></div>
+  <div><h3>Academic Conferences are Potentially Facing Denominator Gaming Caused by Fully Automated Scientific Agents</h3><p>Rong Shan*, Te Gao*, …, Jianghao Lin</p><p>贡献：实验设置对照、统计分析与结果整理。</p></div>
+</div>
 
-## Shanghai Jiao Tong University APEX Lab · Research Assistant
-*2025.06 - Present*  
-**Multi-Agent collaborative memory distillation: Multi-Teacher → Student**
+<div class='cv-publication'>
+  <div class='cv-pub-meta'><span>SCIS</span><span>RESEARCH SURVEY</span></div>
+  <div><h3><a href="https://arxiv.org/abs/2503.09567">Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models</a></h3><p>Qiguang Chen, Libo Qin, …, Te Gao, Wanxiang Che</p><p>贡献：Long-CoT 分类学整理、文献整理总结与表格维护。</p></div>
+</div>
 
-- Designed a Multi-Teacher → Student distillation paradigm where multiple teacher LLMs collaboratively generate reasoning trajectories to improve student capabilities in task decomposition, tool planning, and decision-making.
-- Built a plugin-style agent workflow with LangChain and Smolagents for retrieval, trajectory generation, filtering, replay, and evaluation, supporting rapid replacement of teachers, students, tools, and task configurations.
-- Constructed a Neo4j Graph RAG memory module with entropy-based conflict filtering to improve recall consistency and memory retention in long-context scenarios.
-- On GAIA Benchmark, improved Qwen2.5-7B without fine-tuning from Pass@1 43.6 to 57.0 (+13.4), using GPT-4o as teacher.
+<div class='cv-publication'>
+  <div class='cv-pub-meta'><span>ACM MM 2025</span><span>CCF-A</span></div>
+  <div><h3><a href="https://arxiv.org/abs/2511.05034">Dynamic Residual Encoding for End-to-End WSI Representation</a></h3><p>贡献：复现与优化 Dynamic Residual Encoding，设计消融实验并完成多数据集对比。</p></div>
+</div>
 
-## Central South University Text Intelligence Lab · LiBo Qin Group
-*2024.11 - 2025.05*  
-**Long-video understanding, reasoning enhancement, and long chain-of-thought**
+# 研究经历
 
-- Designed a two-stage reasoning pipeline with dynamic keyframe completion and visual evidence-chain construction to improve reasoning depth and interpretability for complex long-video tasks.
-- Aligned fine-grained visual features with textual logic chains to reduce hallucination and detail conflicts in long-video analysis.
-- Improved average accuracy on **VideoEspresso** by **+3.0%** for open-source models and **+2.3%** for closed-source models.
+## Multi-Agent 协作的记忆蒸馏
 
-# 💻 Open Source and Projects
+**上海交通大学 APEX 实验室** · Research Assistant <span class="cv-date">2025.11—至今</span>
 
-## [LLMs-from-scratch-CN](https://github.com/MLNLP-World/LLMs-from-scratch-CN) · Project Lead
-*2025.01 - 2025.04*
+- 设计 Multi-Teacher → Student 蒸馏范式，搭建 LangChain / Smolagents 插件化 Agent 工作流，支持任务拆解、工具规划与决策能力研究。
+- 构建 Neo4j Graph RAG 与记忆模块，引入基于 entropy 的冲突过滤，提升长上下文场景的召回一致性。
+- 在 GAIA Benchmark 上，Qwen2.5-7B Pass@1 从 **43.6 提升至 57.0**，Teacher 使用 GPT-4o。
 
-Led the Chinese translation and review of *LLM From Scratch*, supplemented paper background and implementation details, and coordinated project maintenance. The project has received **2.5k+ stars**.
+## 学术会议分母博弈与科研智能体安全
 
-# 🎖 Honors and Awards
-- *2025.06* National Third Prize, Service Outsourcing Innovation and Entrepreneurship Competition, Technical Lead.
-- *2025.05* National Final Second Prize, National College Student Software Innovation Competition, Team Leader.
-- *2025* LMG Best Poster, Science China Information Sciences.
+**上海交通大学 APEX 实验室** · Research Assistant <span class="cv-date">2025.06—2025.11</span>
 
-# 📖 Education
-- *2024.09 - 2028.06 expected*, **Central South University** (985 / Double First-Class), B.S. in Computer Science and Technology.
+- 围绕 Agentic Denominator Gaming，分析投稿量增长、录用率稳定与科研智能体自动化之间的结构性风险。
+- 参与威胁模型与论证框架设计，研究自动化生成与投稿对评审负载和学术信任的潜在影响；相关工作发表于 ICML 2026 Position。
 
-# 🛠 Skills
-- **Training and Alignment:** PyTorch, Transformers, Accelerate, verl, TRL, SFT, DPO, PPO, GRPO, gradient checkpointing, bf16/fp16, FlashAttention.
-- **Inference and Serving:** vLLM offline batch inference, online serving, agent backend, FastAPI.
-- **Agents and RAG:** LangChain, Smolagents, agent workflow orchestration, tool-use, FAISS, Milvus, Neo4j, Graph RAG, HF Datasets, WebDataset, data cleaning, deduplication, synthetic data, instruction construction, rule-based and LLM labeling.
-- **Evaluation and Engineering:** GAIA, MMLU, GSM8K, HumanEval, MT-Bench, Arena, Ray, Linux, Git, Docker, refusal and safety filtering, prompt templating, OpenClaude application and modification, C++, Java.
-- **Languages:** CET-4 **584**, CET-6 **626**.
+## 长视频推理增强与多模态证据链理解
 
-# 📫 Contact
-- Email: [marsdon.gao@mail.com](mailto:marsdon.gao@mail.com) / [8208241315@csu.edu.cn](mailto:8208241315@csu.edu.cn)
-- GitHub: [github.com/GoatCsu](https://github.com/GoatCsu)
+**中南大学 Text Intelligence 实验室** · Research Assistant <span class="cv-date">2024.11—2025.05</span>
+
+- 设计两阶段推理 Pipeline：关键帧动态补全与视觉证据链构建，提升复杂长视频任务的推理深度与可解释性。
+- 在 VideoEspresso 上，开源模型平均准确率提升 **3.0%**，闭源模型提升 **2.3%**。
+- 相关专利：基于多模态证据链的视频理解方法及系统，申请号 **202511689594.6**。
+
+# 开源与项目
+
+## [LLMs-from-scratch-CN](https://github.com/MLNLP-World/LLMs-from-scratch-CN) · 项目负责人
+
+牵头中文翻译与校对，补充论文背景和实现细节，协调项目维护；项目累计 **2.5k+ stars**。
+
+# 荣誉与竞赛
+
+- **全国大学生软件创新大赛二等奖** · 主要负责人 · 2025.05
+- **中国大学生服务外包创新创业大赛三等奖** · 技术负责人 · 2025.06
+- **LMG Best Poster** · *Science China Information Sciences* · 2025
+
+# 技能
+
+**Agent 与检索**　LangChain、Smolagents、Agent Workflow、FAISS、Milvus、Neo4j、Graph RAG  
+**训练与推理**　PyTorch、Accelerate、verl、SFT / DPO、PPO / GRPO、bf16 / fp16、FlashAttention、vLLM、FastAPI  
+**语言**　英语六级 626，英语四级 584
+
+<div class="cv-footer-note">持续探索可信赖的智能体系统。欢迎交流研究、合作与实习机会。</div>
