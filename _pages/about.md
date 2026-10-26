@@ -64,30 +64,48 @@ redirect_from:
   <div><h3><a href="https://doi.org/10.1145/3746027.3755469">Dynamic Residual Encoding with Slide-Level Contrastive Learning for End-to-End Whole Slide Image Representation</a></h3><p>Jing Jin, Xu Liu, <strong>Te Gao</strong>, …, Shichao Kan</p><p>参与 Dynamic Residual Encoding 复现、消融实验与多数据集对比。</p><a class="cv-paper-link" href="https://arxiv.org/abs/2511.05034">预印本 / arXiv ↗</a></div>
 </div>
 
-# 研究经历
+<h2 id="research" class="cv-section-title"><span>04 / RESEARCH</span>研究经历</h2>
 
-## Multi-Agent 协作的记忆蒸馏
+## RobustRL · 跨精度价值引导的量化语言模型强化学习
 
-**上海交通大学 APEX 实验室** · Research Assistant <span class="cv-date">2025.11—至今</span>
+<span class="cv-status">在研 · 第二作者 · ICML 拟投稿</span>
 
-- 设计 Multi-Teacher → Student 蒸馏范式，搭建 LangChain / Smolagents 插件化 Agent 工作流，支持任务拆解、工具规划与决策能力研究。
-- 构建 Neo4j Graph RAG 与记忆模块，引入基于 entropy 的冲突过滤，提升长上下文场景的召回一致性。
-- 在 GAIA Benchmark 上，Qwen2.5-7B Pass@1 从 **43.6 提升至 57.0**，Teacher 使用 GPT-4o。
+**上海交通大学合作研究** · Muning Wen 指导
 
-## 学术会议分母博弈与科研智能体安全
+- 实现 AWC：在学生轨迹前缀计算教师分布，以正 raw-GAE 逐 token 加权全词表前向 KL。
+- 实现 QCA：在同一前缀采样 BF16 候选动作，利用即时奖励与 critic 下一状态价值估计优势差，施加门控成对排序损失。
+- 参与 BF16 PPO、量化 PPO、AWC 与 QCA 对照及早期消融实验。
 
-**上海交通大学 APEX 实验室** · Research Assistant <span class="cv-date">2025.06—2025.11</span>
+## Roads · 无额外 rollout 的在线自适应数据选择
 
-- 围绕 Agentic Denominator Gaming，分析投稿量增长、录用率稳定与科研智能体自动化之间的结构性风险。
-- 参与威胁模型与论证框架设计，研究自动化生成与投稿对评审负载和学术信任的潜在影响；相关工作发表于 ICML 2026 Position。
+<span class="cv-status">COLM 2026 拒稿</span>
 
-## 长视频推理增强与多模态证据链理解
+Haoyu Kang, Xiaotian Lin, Zijie Zhou, **Te Gao**, Yuyu Luo
 
-**中南大学 Text Intelligence 实验室** · Research Assistant <span class="cv-date">2024.11—2025.05</span>
+- 参与 RLVR 数据选择研究，以初始难度与训练动态预测当前难度，减少数据筛选阶段的额外采样。
+- 以 UCB1 动态权衡难度、推理质量与多样性，选择样本进入 GRPO 训练。
 
-- 设计两阶段推理 Pipeline：关键帧动态补全与视觉证据链构建，提升复杂长视频任务的推理深度与可解释性。
-- 在 VideoEspresso 上，开源模型平均准确率提升 **3.0%**，闭源模型提升 **2.3%**。
-- 相关专利：基于多模态证据链的视频理解方法及系统，申请号 **202511689594.6**。
+## 学术会议分母博弈与科研智能体
+
+**上海交通大学 APEX 实验室** · Research Assistant
+
+- 将自动化论文生产引发的投稿分母变化与研究质量变化分开分析，评估录用率与评审负载的结构性风险。
+- 负责代码、实验流程和统计分析；相关工作发表于 ICML 2026 Position，共同第一作者。
+
+## 智能体记忆与多模态理解
+
+- **智能体记忆**：探索多教师蒸馏、Graph RAG 与冲突过滤，搭建插件化工具调用与记忆工作流。
+- **长视频理解**：参与关键帧补全与多模态证据链研究；相关专利申请号：202511689594.6。
+
+<h2 id="experience" class="cv-section-title"><span>05 / EXPERIENCE</span>实习经历</h2>
+
+## 深信服科技 · X-STAR 大模型算法实习计划
+
+**DataAgent / L4** · 销售知识自动化构建与 Agent 决策 <span class="cv-date">2026.06—2026.10</span>
+
+- 搭建 Skills 驱动的画像识别、关键时刻分析、策略提取与 Wiki 生成流程，保留原文定位，支持知识复用与迭代。
+- 参与 Agent 决策编排：按对话状态调用 SOP、人群策略与检索工具，先形成结构化行动策略，再生成回复。
+- 适配本地六分类决策模型，搭建多模型批量评测、概率拒判与错误诊断流程，分别统计人工标签与模型参考结果。
 
 # 开源与项目
 
