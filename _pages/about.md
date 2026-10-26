@@ -41,26 +41,27 @@ redirect_from:
 - **2026.06—10** · 参与**深信服科技 X-STAR 大模型算法实习计划**，研究销售 Agent 的知识构建、决策编排与离线评测。
 - **2026.07** · 获**中国机器人及人工智能大赛全国总决赛一等奖**，担任技术负责人。
 
-# 论文
+<h2 id="publications" class="cv-section-title"><span>03 / PUBLICATIONS</span>已发表论文</h2>
+<p class="cv-section-note">* 表示共同第一作者。姓名加粗标识本人。</p>
 
-<div class='cv-publication'>
-  <div class='cv-pub-meta'><span>ACL 2026</span><span>MAIN CONFERENCE</span></div>
-  <div><h3><a href="https://arxiv.org/abs/2508.05668">A Survey of Large Language Model-Based Search Agents</a></h3><p>Yunjia Xi, Jianghao Lin, …, Te Gao, …, Weinan Zhang</p><p>贡献：评测基准整理、复现统计分析与文献表格化整理。</p></div>
+<div class="cv-publication">
+  <div class="cv-pub-meta"><span>ICML 2026</span><span>POSITION · CO-FIRST</span></div>
+  <div><h3><a href="https://proceedings.mlr.press/v306/shan26e.html">Position: Academic Conferences are Potentially Facing Denominator Gaming Caused by Fully Automated Scientific Agents</a></h3><p>Rong Shan*, <strong>Te Gao*</strong>, …, Jianghao Lin</p><p>负责代码、实验流程与统计分析，区分自动投稿规模与研究质量变化。</p><a class="cv-paper-link" href="https://proceedings.mlr.press/v306/shan26e.html">论文 / PMLR ↗</a></div>
 </div>
 
-<div class='cv-publication'>
-  <div class='cv-pub-meta'><span>ICML 2026</span><span>POSITION · CO-FIRST</span></div>
-  <div><h3>Academic Conferences are Potentially Facing Denominator Gaming Caused by Fully Automated Scientific Agents</h3><p>Rong Shan*, Te Gao*, …, Jianghao Lin</p><p>贡献：实验设置对照、统计分析与结果整理。</p></div>
+<div class="cv-publication">
+  <div class="cv-pub-meta"><span>ACL 2026</span><span>MAIN CONFERENCE</span></div>
+  <div><h3><a href="https://aclanthology.org/2026.acl-long.374/">A Survey of Large Language Model-Based Search Agents</a></h3><p>Yunjia Xi, Jianghao Lin, …, <strong>Te Gao</strong>, …, Weinan Zhang</p><p>梳理评测基准，完成复现实验统计与文献表格整理。</p><a class="cv-paper-link" href="https://aclanthology.org/2026.acl-long.374/">论文 / ACL Anthology ↗</a></div>
 </div>
 
-<div class='cv-publication'>
-  <div class='cv-pub-meta'><span>SCIS</span><span>RESEARCH SURVEY</span></div>
-  <div><h3><a href="https://arxiv.org/abs/2503.09567">Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models</a></h3><p>Qiguang Chen, Libo Qin, …, Te Gao, Wanxiang Che</p><p>贡献：Long-CoT 分类学整理、文献整理总结与表格维护。</p></div>
+<div class="cv-publication">
+  <div class="cv-pub-meta"><span>SCIS 2026</span><span>REVIEW</span></div>
+  <div><h3><a href="https://doi.org/10.1007/s11432-025-4665-8">Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models</a></h3><p>Qiguang Chen, Libo Qin, …, <strong>Te Gao</strong>, Wanxiang Che</p><p>参与 Long-CoT 分类体系、文献梳理与综述表格维护。</p><a class="cv-paper-link" href="https://doi.org/10.1007/s11432-025-4665-8">论文 / Springer ↗</a></div>
 </div>
 
-<div class='cv-publication'>
-  <div class='cv-pub-meta'><span>ACM MM 2025</span><span>CCF-A</span></div>
-  <div><h3><a href="https://arxiv.org/abs/2511.05034">Dynamic Residual Encoding for End-to-End WSI Representation</a></h3><p>贡献：复现与优化 Dynamic Residual Encoding，设计消融实验并完成多数据集对比。</p></div>
+<div class="cv-publication">
+  <div class="cv-pub-meta"><span>ACM MM 2025</span><span>RESEARCH PAPER</span></div>
+  <div><h3><a href="https://doi.org/10.1145/3746027.3755469">Dynamic Residual Encoding with Slide-Level Contrastive Learning for End-to-End Whole Slide Image Representation</a></h3><p>Jing Jin, Xu Liu, <strong>Te Gao</strong>, …, Shichao Kan</p><p>参与 Dynamic Residual Encoding 复现、消融实验与多数据集对比。</p><a class="cv-paper-link" href="https://arxiv.org/abs/2511.05034">预印本 / arXiv ↗</a></div>
 </div>
 
 # 研究经历
