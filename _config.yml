@@ -7,7 +7,9 @@
 
 # Site Settings
 title                    : "Te Gao"
-description              : "Undergraduate researcher working on LLM Agents, Search, Memory, Tool-use, Workflow, Post-training, LLM Reasoning, and VLM."
+description              : "LLM Agents · Reinforcement Learning · Reasoning"
+url                      : "https://goatcsu.github.io"
+lang                     : "zh-CN"
 repository               : "GoatCsu/GoatCsu.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -22,13 +24,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "高特 / Te Gao"
-  avatar           : "https://avatars.githubusercontent.com/u/183998412?v=4"
+  avatar           : "/images/te-gao.jpg"
   bio              : "B.S. Computer Science @ Central South University"
   location         : "Changsha, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=fmK1DrBEd8MC&hl=zh-CN"
-  email            : "marsdon.gao@mail.com"
+  email            : "marsdon.gao@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -66,6 +68,7 @@ include:
   - files
 exclude:
   - docs
+  - build_logs
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
