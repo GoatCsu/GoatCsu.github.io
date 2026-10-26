@@ -28,11 +28,11 @@ redirect_from:
   <div><span class="cv-label">研究主题</span><strong>Agents · RL · Reasoning</strong><small>Memory · Tool use · Efficient inference</small></div>
 </div>
 
-# 研究简介
+<h2 id="research-overview" class="cv-section-title"><span>01 / ABOUT</span>研究简介</h2>
 
-我是 **Te Gao（高特）**，中南大学计算机科学与技术专业本科生。目前在**上海交通大学 APEX 实验室**从事研究，主要关注语言模型智能体、记忆与工具使用，也参与长视频理解和长链推理相关研究。
+我是 **Te Gao（高特）**，中南大学计算机科学与技术专业本科生。目前在**上海交通大学 APEX 实验室**从事研究，主要关注智能体的记忆、工具使用与决策，以及语言模型强化学习中的效率与可靠性问题。
 
-我喜欢把研究问题落到可复现的系统与评测上：从数据和工作流搭建，到基线复现、统计分析与结果验证。
+我的工作从可复现的实验与评测出发，涵盖智能体工作流、量化强化学习与自适应数据选择；也参与搜索智能体、长链推理及多模态理解相关研究。
 
 # 近期动态
 
