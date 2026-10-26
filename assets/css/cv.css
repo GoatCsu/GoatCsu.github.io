@@ -148,3 +148,16 @@ body { font-family: 'Avenir Next', 'PingFang SC', 'Microsoft YaHei', sans-serif;
   .cv-nav { width: 100%; gap: 1.4rem; padding-bottom: .2rem; }
   [id] { scroll-margin-top: 7rem; }
 }
+@media screen and (max-width: 1199px) {
+  #main > .sidebar, #main > .page { float: none; width: 100%; padding-left: 0; padding-right: 0; }
+  #main > .sidebar { position: static; }
+  #main .profile_box { display: flex; flex-wrap: wrap; }
+  #main .author__avatar { flex: 0 0 72px; width: 72px; }
+  #main .author__content { flex: 1; width: auto; }
+  #main .author__urls { display: none; }
+  #main .author__urls_sm { display: flex; }
+}
+@media screen and (min-width: 1200px) {
+  #main .profile_box { display: block; }
+  #main .author__urls_sm { display: none; }
+}
