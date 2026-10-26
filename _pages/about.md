@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
+excerpt: "高特 Te Gao，中南大学计算机科学与技术本科生。研究语言模型智能体、强化学习与高效推理。"
 author_profile: true
 redirect_from:
   - /about/
@@ -11,21 +11,21 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <div class="cv-intro">
-  <p class="cv-kicker">ACADEMIC CV · 2026</p>
+  <p class="cv-kicker">RESEARCH NOTES / 2026</p>
   <h1>高特 <span class="cv-name-en">Te Gao</span></h1>
-  <p class="cv-lede">中南大学计算机科学与技术本科生，关注让语言模型更可靠地思考、检索与使用工具。</p>
+  <p class="cv-lede">中南大学计算机科学与技术本科生，研究语言模型智能体、强化学习与高效推理。</p>
   <div class="cv-actions">
-    <a class="cv-button" href="mailto:marsdon.gao@mail.com">联系我 <span aria-hidden="true">↗</span></a>
+    <a class="cv-button" href="mailto:marsdon.gao@gmail.com">联系我 <span aria-hidden="true">↗</span></a>
     <a class="cv-text-link" href="https://github.com/GoatCsu">GitHub</a>
     <a class="cv-text-link" href="https://scholar.google.com/citations?user=fmK1DrBEd8MC&amp;hl=zh-CN">Google Scholar</a>
-    <a class="cv-text-link" href="#" onclick="window.print(); return false;">打印 / 导出 PDF <span aria-hidden="true">↓</span></a>
+    <button class="cv-text-link cv-print" type="button" onclick="window.print()">打印 / 导出 PDF <span aria-hidden="true">↓</span></button>
   </div>
 </div>
 
 <div class="cv-facts">
   <div><span class="cv-label">教育</span><strong>中南大学</strong><small>计算机科学与技术 · 2024—2028</small></div>
   <div><span class="cv-label">目前</span><strong>上海交通大学 APEX 实验室</strong><small>Research Assistant · 2025.06—至今</small></div>
-  <div><span class="cv-label">研究主题</span><strong>Agents · Memory · Reasoning</strong><small>Search · Tool-use · Post-training · VLM</small></div>
+  <div><span class="cv-label">研究主题</span><strong>Agents · RL · Reasoning</strong><small>Memory · Tool use · Efficient inference</small></div>
 </div>
 
 # 研究简介
