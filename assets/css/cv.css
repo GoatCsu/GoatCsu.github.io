@@ -66,3 +66,74 @@ html[data-theme="dark"] .cv-actions .cv-button { color: #fff; }
   #main { max-width: 900px; }
   .page__content { font-size: 11pt; }
 }
+
+/* Editorial structure: a quiet index of the work. */
+body { font-family: 'Avenir Next', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+#main { max-width: 1200px; margin: 2.8rem auto 4rem; }
+.page__content { font-size: 16px; line-height: 1.85; }
+.page__content a { text-underline-offset: .24em; }
+.page__content h2.cv-section-title {
+  display: flex; align-items: baseline; gap: 1.1rem;
+  margin: 3rem 0 1.25rem; padding-bottom: .65rem;
+  border-bottom: 1px solid var(--cv-line);
+  font: 600 1.45rem/1.5 Georgia, 'Songti SC', serif;
+}
+.cv-section-title > span { flex-shrink: 0; color: var(--cv-red); font: 600 10px/1.5 'Avenir Next', sans-serif; letter-spacing: .12em; }
+.page__content h2:not(.cv-section-title) { margin-top: 1.8rem; font-size: 1.1rem; line-height: 1.6; }
+.cv-section-note { color: var(--cv-muted) !important; font-size: .8em !important; }
+.cv-paper-link { display: inline-block; margin-top: .45rem; font-size: .76em; text-decoration: none; }
+.cv-publication { grid-template-columns: 130px minmax(0, 1fr); padding: 1.35rem 0; }
+.cv-publication h3 a { color: var(--cv-ink); text-decoration: none; }
+.cv-publication h3 a:hover { color: var(--cv-green); text-decoration: underline; }
+.cv-publication h3 { font: 600 1.08em/1.6 Georgia, 'Songti SC', serif; }
+.cv-status { display: inline-block; padding: .2em .65em; border-left: 2px solid var(--cv-green); background: var(--cv-panel); color: var(--cv-green); font-size: .77em; }
+.cv-print { appearance: none; padding: 0; color: var(--cv-green); font-family: inherit; background: none; border: 0; border-bottom: 1px solid var(--cv-line); cursor: pointer; font-size: .88em; }
+.cv-print:hover { color: var(--cv-red); }
+.cv-footer-note { display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; font: .9em/1.8 'Avenir Next', 'PingFang SC', sans-serif; }
+.cv-footer-note small { flex-basis: 100%; font-size: .8em; }
+[id] { scroll-margin-top: 5rem; }
+.page__content #about-me { display: block; margin: 0; }
+.page__content #about-me:before { display: none; }
+:focus-visible { outline: 2px solid var(--cv-green); outline-offset: 4px; }
+.skip-link { position: fixed; top: -8rem; left: 1rem; z-index: 100; padding: .6rem 1rem; background: var(--cv-ink); color: var(--cv-paper); }
+.skip-link:focus { top: .5rem; }
+@media (min-width: 1024px) {
+  #main { display: grid; grid-template-columns: 195px minmax(0, 1fr); gap: 3.5rem; padding: 0 2rem; }
+  #main::after { display: none; }
+  #main > .sidebar { width: auto; float: none; margin: 0; position: sticky; top: 6rem; align-self: start; }
+  #main > .page { width: auto; float: none; padding: 0; margin: 0; min-width: 0; }
+  .author__avatar img { width: 148px; border-radius: 2px; padding: 0; border: 0; filter: none; }
+  .sidebar .author__name { margin-top: 1rem; font: 600 1.1rem/1.5 Georgia, 'Songti SC', serif; }
+  .author__urls li { padding-bottom: .4rem; }
+}
+@media (max-width: 1023px) {
+  #main { margin-top: 1.5rem; padding: 0 1.3rem; }
+  .sidebar { padding-bottom: 1.2rem; border-bottom: 1px solid var(--cv-line); margin-bottom: 1.5rem; }
+  .profile_box { gap: .8rem; flex-wrap: wrap; }
+  .author__avatar img { border: 0; border-radius: 2px; padding: 0; width: 72px; filter: none; }
+  .author__content { padding: 0; flex: 1; }
+  .author__urls-wrapper { width: 100%; }
+  .author__urls_sm { display: flex; gap: 1rem; padding: .5rem 0 0; }
+  .cv-intro h1 { font-size: clamp(2.2rem, 8vw, 3.4rem); }
+}
+@media (max-width: 700px) {
+  .page__content { font-size: 15px; }
+  .page__content h2.cv-section-title { display: block; margin-top: 2.4rem; font-size: 1.3rem; }
+  .cv-section-title > span { display: block; margin-bottom: .5rem; }
+  .cv-publication { grid-template-columns: 1fr; gap: .65rem; }
+  .cv-pub-meta { align-items: baseline; }
+  .cv-actions { gap: .9em; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+@media print {
+  #main { display: block; margin: 0; padding: 0; max-width: none; }
+  #main > .page { width: 100%; padding: 0; }
+  .skip-link { display: none; }
+  .cv-section-title { break-after: avoid; }
+  .cv-publication { break-inside: avoid; }
+  .cv-section-title > span, .cv-kicker, .cv-pub-meta { color: #444 !important; }
+  .page__content, .page__content p, .page__content li { color: #111 !important; }
+}
