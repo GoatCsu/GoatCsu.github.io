@@ -34,12 +34,12 @@ redirect_from:
 
 我的工作从可复现的实验与评测出发，涵盖智能体工作流、量化强化学习与自适应数据选择；也参与搜索智能体、长链推理及多模态理解相关研究。
 
-# 近期动态
+<h2 id="news" class="cv-section-title"><span>02 / NEWS</span>近期动态</h2>
 
-- **2026** · 参与的科研智能体与学术会议分母博弈 position paper 发表于 **ICML 2026 Position**，共同第一作者。
-- **2026** · 参与的 LLM 搜索智能体综述发表于 **ACL 2026 Main Conference**。
-- **2025** · 参与的 Long-CoT 综述发表于 *Science China Information Sciences*，获 LMG Best Poster。
-- **2025** · 牵头 **LLMs-from-scratch-CN** 中文翻译与校对，项目累计 2.5k+ GitHub stars。
+- **2026** · 科研智能体与学术会议分母博弈论文发表于 **ICML 2026 Position**，共同第一作者。
+- **2026** · 搜索智能体综述发表于 **ACL 2026 Main Conference**；Long-CoT 综述发表于 **Science China Information Sciences**。
+- **2026.06—10** · 参与**深信服科技 X-STAR 大模型算法实习计划**，研究销售 Agent 的知识构建、决策编排与离线评测。
+- **2026.07** · 获**中国机器人及人工智能大赛全国总决赛一等奖**，担任技术负责人。
 
 # 论文
 
