@@ -107,22 +107,23 @@ Haoyu Kang, Xiaotian Lin, Zijie Zhou, **Te Gao**, Yuyu Luo
 - 参与 Agent 决策编排：按对话状态调用 SOP、人群策略与检索工具，先形成结构化行动策略，再生成回复。
 - 适配本地六分类决策模型，搭建多模型批量评测、概率拒判与错误诊断流程，分别统计人工标签与模型参考结果。
 
-# 开源与项目
+<h2 id="projects" class="cv-section-title"><span>06 / OPEN SOURCE</span>开源与项目</h2>
 
 ## [LLMs-from-scratch-CN](https://github.com/MLNLP-World/LLMs-from-scratch-CN) · 项目负责人
 
-牵头中文翻译与校对，补充论文背景和实现细节，协调项目维护；项目累计 **2.5k+ stars**。
+牵头中文翻译与校对，补充论文背景和实现细节，协调项目维护。
 
-# 荣誉与竞赛
+<h2 id="awards" class="cv-section-title"><span>07 / AWARDS</span>荣誉与竞赛</h2>
 
+- **中国机器人及人工智能大赛全国总决赛一等奖** · 技术负责人 · 2026.07
 - **全国大学生软件创新大赛二等奖** · 主要负责人 · 2025.05
 - **中国大学生服务外包创新创业大赛三等奖** · 技术负责人 · 2025.06
 - **LMG Best Poster** · *Science China Information Sciences* · 2025
 
-# 技能
+<h2 id="skills" class="cv-section-title"><span>08 / TOOLKIT</span>技能</h2>
 
 **Agent 与检索**　LangChain、Smolagents、Agent Workflow、FAISS、Milvus、Neo4j、Graph RAG  
 **训练与推理**　PyTorch、Accelerate、verl、SFT / DPO、PPO / GRPO、bf16 / fp16、FlashAttention、vLLM、FastAPI  
 **语言**　英语六级 626，英语四级 584
 
-<div class="cv-footer-note">持续探索可信赖的智能体系统。欢迎交流研究、合作与实习机会。</div>
+<footer class="cv-footer-note"><span>欢迎交流智能体、强化学习与推理相关研究。</span><a href="mailto:marsdon.gao@gmail.com">marsdon.gao@gmail.com ↗</a><small>更新于 2026 年 10 月</small></footer>
